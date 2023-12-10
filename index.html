@@ -22,7 +22,7 @@
         <li><a href="#" >HOME</a></li>
         <li><a href="#">Skills</a></li>
         <li><a href="#"class="active">Projects</a></li>
-        <li><a href="#">Languages</a></li>
+        <li><a href="#" onclick="showLanguages()">Languages</a></li>
       </ul>
     </header>
     <section id="content">
@@ -63,11 +63,12 @@
         
       </div>
       <div id="main">
-        <div style="display: none;">
-           <h2>Home</h2>
-        <p>Welcome...</p>
+        
+        <div>
+          <h2 >Home</h2>
+          <p>Welcome...</p>
         </div>
-       
+        
         <div style="display: none;">
            <h2>Skills</h2>
            <ul>
@@ -77,11 +78,12 @@
             </ul>
         </div>
         
-
-        <h2>Projects</h2>
+        <div>
+          <h2>Projects</h2>
         <p>...</p>
-
-        <div style="display: none;">
+        </div>
+        
+        <div style="display: none;" id="languages">
           <h2>Known Languages</h2>
         <table border="1">
           <tr>
