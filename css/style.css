@@ -79,3 +79,7 @@ th {
 td.favorite {
   font-weight: normal;
 }
+
+header {
+  background-color: rgb(189, 147, 133);
+}
