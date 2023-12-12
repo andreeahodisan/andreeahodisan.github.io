@@ -18,3 +18,4 @@ function showPage(id) {
   show(id);
   activePage = id;
 }
+show(activePage);
